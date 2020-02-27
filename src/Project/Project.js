@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import "./Project.css";
 
 export default class Project extends React.Component {
   constructor(props) {
@@ -10,24 +11,33 @@ export default class Project extends React.Component {
     this.description = props.desc;
     this.img = props.img;
     this.tech = props.tech;
+    this.imgclass = props.imgclass;
   }
 
   render() {
     return (
       <div className="project">
-        <h1 className="project-title">{this.title}</h1>
-        <span className="project-links">
-          <a href={this.live} alt="live-app" target="_blank">
-            live app
-          </a>{" "}
-          |{" "}
-          <a href={this.repo} alt="repo" target="_blank">
-            repo
-          </a>
-        </span>
-        <p className="project-desc">{this.description}</p>
-        <span className="project-tech">{this.tech}</span>
-        <img src={this.img} alt="screenshot" />
+        <div className="details">
+          <h1 className="project-title">{this.title}</h1>
+          <span className="project-links">
+            <a href={this.live} alt="live-app" target="_blank">
+              live app
+            </a>{" "}
+            |{" "}
+            <a href={this.repo} alt="repo" target="_blank">
+              repo
+            </a>
+          </span>
+          <br />
+          <br />
+          <p className="project-desc">{this.description}</p>
+          <br />
+
+          <span className="project-tech">
+            <i>{this.tech}</i>
+          </span>
+        </div>
+        <img src={this.img} alt="screenshot" className={this.imgclass} />
       </div>
     );
   }

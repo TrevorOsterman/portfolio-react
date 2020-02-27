@@ -1,0 +1,3 @@
+.projects-list:nth-child(odd) {
+    background-color: black;
+}

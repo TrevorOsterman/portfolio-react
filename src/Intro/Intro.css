@@ -1,3 +1,33 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-div {
+}
+
+.name {
+  font-size: 5vw;
+}
+
+.title {
+  text-align: justify;
+}
+
+.title::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
 .tech-icon {
-    width: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.headshot {
+  width: 300px;
 }

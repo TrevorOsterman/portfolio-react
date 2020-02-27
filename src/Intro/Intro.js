@@ -8,14 +8,10 @@ import "./Intro.css";
 
 export default function Intro() {
   return (
-    <>
+    <div className="intro">
       <div className="title-div">
         <h1 className="name">Trevor Osterman.</h1>
         <h2 className="title">Full Stack Web Developer</h2>
-      </div>
-      <img src={headshot} alt="headshot" />
-      <div className="technologies">
-        <h3 className="section-header">I work primarily with these:</h3>
         <div className="tech-icons">
           <img src={react} className="tech-icon" alt="react-icon" />
           <img src={node} className="tech-icon" alt="node-icon" />
@@ -23,6 +19,8 @@ export default function Intro() {
           <img src={postgres} className="tech-icon" alt="postgres-icon" />
         </div>
       </div>
-    </>
+      <img className="headshot" src={headshot} alt="headshot" />
+      
+    </div>
   );
 }

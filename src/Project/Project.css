@@ -1,0 +1,21 @@
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.project-thumb {
+  width: 500px;
+}
+
+.details {
+    padding: 25px;
+    text-align: justify;
+    width: 500px;
+}
+
+.project-thumb-left {
+    order: -1;
+    width: 500px;
+}
