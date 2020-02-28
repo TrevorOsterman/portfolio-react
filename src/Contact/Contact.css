@@ -48,3 +48,24 @@
     justify-content: space-around;
     padding: 25px;
 }
+
+@media only screen and (max-width: 950px) {
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-left, .contact-right {
+    width: 90%;
+  }
+
+  .contact-left > h1 {
+    font-size: 75px;
+  }
+
+  .contact-left > h2 {font-size: 25px;}
+
+  .contact-right > p {
+    font-size: 20px;
+  }
+    
+}

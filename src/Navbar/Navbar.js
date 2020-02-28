@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="nav">
+
       <nav className="navbar">
         <Link to="/" className="logo">
           TO
@@ -12,6 +12,6 @@ export default function Navbar() {
         <Link to="/about">about</Link>
         <Link to="/contact">contact</Link>
       </nav>
-    </div>
+
   );
 }

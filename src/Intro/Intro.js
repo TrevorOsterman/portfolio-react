@@ -32,9 +32,7 @@ export default function Intro() {
           <img src={postgres} className="tech-icon" alt="postgres-icon" />
         </div>
       </div>
-      <div className="hero-image">
-        <img className="headshot" src={headshot} alt="headshot" />
-      </div>
+      <img className="headshot" src={headshot} alt="headshot" />
     </div>
   );
 }
