@@ -20,11 +20,11 @@ export default class Project extends React.Component {
         <div className="details">
           <h1 className="project-title">{this.title}</h1>
           <span className="project-links">
-            <a href={this.live} alt="live-app" target="_blank">
+            <a href={this.live} alt="live-app" target="_blank" className="project-link">
               live app
             </a>{" "}
             |{" "}
-            <a href={this.repo} alt="repo" target="_blank">
+            <a href={this.repo} alt="repo" target="_blank" className="project-link">
               repo
             </a>
           </span>

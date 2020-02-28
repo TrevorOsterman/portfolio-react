@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
+    font-family: "Roboto Mono";
+    align-items: center;
+}
+
+.navbar > a {
+    padding: 10px 25px;
+    color: rgba(204, 194, 186, 0.726);
+    transition: .5s ease-in-out;
+}
+
+.navbar > a:hover {
+    text-decoration: none;
+    background-color: rgb(218, 213, 209);
+    color: black;
+}
+
+
+@font-face {
+    font-family: "Chomsky";
+    src: url('../Fonts/Chomsky.otf')
+}
+
+.logo {
+    font-family: "Chomsky";
+    font-size: 30px;
+    color: rgb(218, 213, 209);
+    vertical-align: middle;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}

@@ -1,3 +1,22 @@
-.projects-list:nth-child(odd) {
+.project:nth-of-type(odd) {
     background-color: black;
+    color: rgb(218, 213, 209);
+}
+
+.project:nth-of-type(odd) > div > span > a {
+    color: rgb(218, 213, 209);
+}
+
+.section-header {
+    padding: 20px 0;
+    background-color: black;
+    font-family: 'Roboto Mono';
+}
+
+.section-header > a {
+    color: rgb(218, 213, 209);
+}
+
+.section-header > a:hover {
+    text-decoration: none;
 }

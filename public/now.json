@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "code-by-trevor",
+    "alias": "code-by-trevor",
+    "routes": [
+        { "handle": "filesystem" },
+        { "src": "/.*", "dest": "/index.html" }
+    ]
+  }

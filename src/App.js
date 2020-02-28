@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Intro from "./Intro/Intro";
 import Projects from "./Projects/Projects";
+import About from './About/About'
 import Contact from './Contact/Contact'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Route exact path="/" component={Intro} />
       <Route exact path="/" component={Projects} />
+      <Route exact path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
     </div>
   );

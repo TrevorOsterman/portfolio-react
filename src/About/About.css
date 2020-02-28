@@ -1,0 +1,25 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+#about > div > p {
+    padding: 15px;
+    width: 90%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#about > h1 {
+    font-size: 6vw;
+}
+
+.about-paras {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

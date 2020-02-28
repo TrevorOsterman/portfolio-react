@@ -2,20 +2,30 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 25px 0;
+  padding: 25px 20px;
 }
 
 .project-thumb {
   width: 500px;
+  transition: 0.5s ease-in-out;
+}
+
+.project-thumb:hover {
+  transform: scale(1.2);
 }
 
 .details {
-    padding: 25px;
-    text-align: justify;
-    width: 500px;
+  padding: 25px;
+  text-align: justify;
+  width: 500px;
 }
 
 .project-thumb-left {
-    order: -1;
-    width: 500px;
+  order: -1;
+  width: 500px;
+  transition: 0.5s ease-in-out;
+}
+
+.project-thumb-left:hover {
+  transform: scale(1.2);
 }

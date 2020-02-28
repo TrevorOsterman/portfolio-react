@@ -4,13 +4,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Roboto Mono';
+  padding: 100px 0;
 }
 
 .title-div {
+  width: 500px;
 }
 
 .name {
-  font-size: 5vw;
+  font-size: 45px;
 }
 
 .title {
@@ -26,8 +29,39 @@
 .tech-icon {
   width: 100px;
   height: 100px;
+  transition: transform 0.5s;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2) rotate(10deg);
 }
 
 .headshot {
+  width: 100%;
+  transition: transform 0.5s;
+  border-radius: 50%;
+}
+
+.headshot:hover {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.hero-image {
   width: 300px;
+}
+
+.hero-image::after {
+  display: block;
+  position: relative;
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 5%, rgba(197, 161, 131, 0.897) 55%); */
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
 }
