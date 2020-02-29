@@ -5,17 +5,19 @@
 }
 
 .social-icon:hover {
-    cursor: pointer;
-    transform: scale(1.2) rotate(10deg);
+  cursor: pointer;
+  transform: scale(1.2) rotate(10deg);
 }
 
 .contact-section {
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: left;
-  align-items: center;
+  align-content: center;
   padding: 25px 5%;
+  margin: 0 auto;
 }
 
 .contact-left > h1 {
@@ -25,10 +27,16 @@
 }
 
 .contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 40%;
 }
 
 .contact-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 40%;
 }
 
@@ -43,10 +51,10 @@
 }
 
 .social-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -54,7 +62,8 @@
     flex-direction: column;
   }
 
-  .contact-left, .contact-right {
+  .contact-left,
+  .contact-right {
     width: 90%;
   }
 
@@ -62,10 +71,11 @@
     font-size: 75px;
   }
 
-  .contact-left > h2 {font-size: 25px;}
+  .contact-left > h2 {
+    font-size: 25px;
+  }
 
   .contact-right > p {
     font-size: 20px;
   }
-    
 }

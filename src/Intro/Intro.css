@@ -46,6 +46,7 @@
 
 .headshot {
   width: 30%;
+  max-width: 300px;
   transition: transform 0.5s;
   border-radius: 50%;
 }
