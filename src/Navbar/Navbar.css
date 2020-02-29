@@ -37,4 +37,16 @@
     .navbar {
         justify-content: space-around;
     }
+
+    .navbar > .about {
+        order: 1;
+    }
+
+    .navbar > .logo {
+        order: 2;
+    }
+
+    .navbar > .contact {
+        order: 3;
+    }
 }

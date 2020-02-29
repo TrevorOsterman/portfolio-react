@@ -9,8 +9,8 @@ export default function Navbar() {
         <Link to="/" className="logo">
           TO
         </Link>
-        <Link to="/about">about</Link>
-        <Link to="/contact">contact</Link>
+        <Link to="/about" className="about">about</Link>
+        <Link to="/contact" className="contact">contact</Link>
       </nav>
 
   );
