@@ -39,7 +39,7 @@ export default function Projects() {
         title="foodgrid."
         live="https://trevorosterman.github.io/foodgrid/"
         repo="https://github.com/TrevorOsterman/foodgrid"
-        desc="Sfoodgrid. is a web app for use when you're so hungry that you can't be
+        desc="foodgrid. is a web app for use when you're so hungry that you can't be
         bothered with clicking around on Yelp or Google Maps. Just type in the
         location you'd like to search in (city+state, address, or ZIP) and
         you'll be provided with photos from the highest rated restaurants in
